@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Code SMS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>🔐 Entrez le code SMS</h2>
+    <p>Un code de 4 chiffres a été envoyé à votre numéro. Entrez-le ci-dessous.</p>
+    <form id="otpForm">
+      <div class="otp-inputs">
+        <input type="text" maxlength="1" required>
+        <input type="text" maxlength="1" required>
+        <input type="text" maxlength="1" required>
+        <input type="text" maxlength="1" required>
+      </div>
+      <button type="submit">Valider le code</button>
+      <p id="status-message"></p>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
