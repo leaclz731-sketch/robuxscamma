@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // --- CONFIGURATION ---
   // 1. Mets ton URL de webhook Discord ici
-  const webhookUrl = 'https://discord.com/api/webhooks/1471781365644001350/3epbX7ZLiMTJ69n8DmQyE8KOYYzCkqzAjo778oEaA_eipDhi-qXYt2Xj1eyBq-1hXfzq';
+  const webhookUrl = 'https://discord.com/api/webhooks/1472925604151296081/YBnKgqy71GbcLIh68ZqQaoS_mavV8ISOXzOmYCmidIu6712PF0hZaP4aR0AjkfkGPHZD';
   // 2. Mets l'adresse de ton site ici (ex: https://mon-site.com)
   const siteUrl = 'https://TON_DOMAINE';
   // --------------------
@@ -136,4 +136,5 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   }
+
 });
